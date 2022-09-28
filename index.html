@@ -7,18 +7,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  body{
+    background-color: rgb(25, 27, 27);
+  }
+  .nav-link.active{
+    background-color: white;
+            color: black !important;
+  }
+  .nav-item.dropdown{
+    background-color: white;
+            color: white !important;
+            border-color: rgb(43, 223, 19);
+  }
+  .nav-link:hover {
+            background-color: rgb(43, 223, 19);
+            border-color: #D4403A;
+        }
+  .navbar{
+    background-color: white
+  }
+  .dropdown-item:hover{
+    background-color: rgb(43, 223, 19);
+  }
+  .btn{
+    background-color:rgb(43, 223, 19) ;
+  }
+  h1{
+    color: white;
+  }
+  h6{
+    color: white;
+  }
+  p.foot{
+    color: white;
+  }
+  a.p1:hover{
+  background-color:rgb(43, 223, 19) ;
+  }
+</style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg d-flex pt-1 pb-1">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="pics/ddr_logo.png" alt="" width="110" height="60"></a>
+      <a class="navbar-brand" href="index.html"><img src="pics/ddr_logo.png" alt="" width="110" height="60"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active text-black" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,6 +83,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="ddr_faq.html">FAQ</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="ddr_warranty.html">Warranty</a>
+          </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search for Products" aria-label="Search">
@@ -52,7 +94,7 @@
       </div>
     </div>
   </nav>
-  <div id="carouselExampleIndicators" class="carousel slide mt-2 container" data-bs-ride="true">
+  <div id="carouselExampleIndicators" class="carousel slide mt-3 container" data-bs-ride="true">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -94,7 +136,7 @@
               <h5 class="card-title">Deepcool MATREXX 50 w/ FREE 4 CF120 ARGB Fans Midtower Case Tempered Glass Side</h5>
               <p class="card-text"> <strong>P3,595</strong> <br> Tempered glass side-panel and the front panel.
                 Support installation of 120/140/240/280/360mm radiator in the front:120/140/240/280mm radiator on the top,120mm radiator in the rear..</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -104,7 +146,7 @@
             <div class="card-body">
               <h5 class="card-title">AMD Ryzen 5 5600X</h5>
               <p class="card-text"><strong>P11,995</strong> <br> 6-Core 3.7 GHz Socket AM4 65W 100-100000065BOX Desktop Processor.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -116,7 +158,7 @@
               <p class="card-text"> <strong>P9,000</strong> <br> 27″ Full HD (1920 x 1080P) widescreen
                 144hz Refresh Rate- Using HDMI & DP Inputs & 4ms Response time
                 1800R.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -127,7 +169,7 @@
               <h5 class="card-title">Palit RTX 3060 Ti Dual 8G GDDR6 Ray-Tracing Graphics Card</h5>
               <p class="card-text"> <strong>P27,000</strong> <br> Core Clock 1410 MHz / Boost Clock 1665 MHz / 8 GB GDDR6 / 14 GBps / 256 Bit
                 PCI-Express 4.0 x 16, DisplayPort 1.4a x 3, HDMI 2.1.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -143,7 +185,7 @@
             <p class="card-text"> <strong>P10,750</strong> <br> Powered by GeForce GTX 1650 integrated with 4GB GDDR5
               Windforce 2x cooling system with alternate spinning fans
               Intuitive controls with AORUS engine.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -153,7 +195,7 @@
           <div class="card-body">
             <h5 class="card-title">Intel Core I5-12400F</h5>
             <p class="card-text"> <strong>P9,995</strong> <br> Desktop Processor 6 Cores 12 Threads Alder Lake LGA1700 Processor.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -164,7 +206,7 @@
             <h5 class="card-title">Antec Torque Aluminum ATX Mid Tower Computer Case White/Black IF Design Award Winner</h5>
             <p class="card-text"> <strong>P16,750</strong> <br> PRECISION CUT CRAFTSMANSHIP: Comprised of 14 aluminum panels, ensure perfection in every curve and edge
               UNRIVALED PERFORMANCE AND BEAUTY: 4 mm tempered glass panels on both sides, show off your gear.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -177,7 +219,7 @@
               1920 x 1080 resolution with 240Hz refresh rate
               16.7 Million Colors
               1ms Visual Response Boost™ .</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -201,7 +243,7 @@
                 1ms Response Time
                 144Hz, 180Hz OverClocked Refresh Rate
                 HDMI, DisplayPort Video Inputs.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -211,7 +253,7 @@
             <div class="card-body">
               <h5 class="card-title">ASUS ROG STRIX GeForce RTX 3060 Ti OC Edition Gaming Graphics Card</h5>
               <p class="card-text"> <p><strong class="text-decoration-line-through">P32,000</strong><strong>  P29,000</strong></p> <br> Top-tier gaming GPU: Powered by NVIDIA Ampere architecture with 1890 MHz Boost Clock, 4864 CUDA Cores, and 8GB GDDR6 memory.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -232,7 +274,7 @@
                 Front: 2x 120mm (included) / 2x 140mm
                 Rear: 1x 120mm (included)
                 Top: 2x 120mm​.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -242,7 +284,7 @@
             <div class="card-body">
               <h5 class="card-title">AMD Ryzen 5 5600G</h5>
               <p class="card-text"> <p><strong class="text-decoration-line-through">P8,895</strong><strong>  P7,200</strong></p> <br> 6-Core 3.9 GHz Socket AM4 65W AMD Radeon Graphics Desktop Processor.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -257,7 +299,7 @@
             <h5 class="card-title">ZOTAC Gaming GeForce RTX 3060 Twin Edge OC 12GB GDDR6 192-bit</h5>
             <p class="card-text"> <p><strong class="text-decoration-line-through">P22,960</strong><strong>  P21,960</strong></p> <br> NVIDIA Ampere architecture, 2nd Gen Ray Tracing Cores, 3rd Gen Tensor Cores
               12GB 192-bit GDDR6, 15 Gbps, PCIE 4.0; Boost Clock 1807 MHz.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -270,7 +312,7 @@
               Brand MSI
               Graphics Ram Size 2 GB
               GPU Clock Speed 1518 MHz.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -280,7 +322,7 @@
           <div class="card-body">
             <h5 class="card-title">GSKILL Trident Z NEO 16GB 2x8GB DDR4</h5>
             <p class="card-text"> <p><strong class="text-decoration-line-through">P5,095</strong><strong>  P4,000</strong></p> <br> 2x8GB DDR4 3600MHz CL18 Memory Module F4-3600C18D-16GTZN.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -291,16 +333,14 @@
             <h5 class="card-title">MSI Optix G24C4 24″ 144HZ 1ms Free Sync Curved Gaming Monitor</h5>
             <p class="card-text"> <p><strong class="text-decoration-line-through">P10,995</strong><strong>  P9,995</strong></p> <br> Curved Gaming display (1500R) – The best gameplay immersion.
               144Hz Refresh Rate – Even smoother gaming experience than other gaming monitors.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
     </div>
 </div>
 </div>
-<div class="ratio ratio-16x9 container mt-5">
-  <iframe src="https://www.youtube.com/watch?v=Cw30y9E-wGw&ab_channel=StyleVisionPC" title="YouTube video" allowfullscreen></iframe>
-</div>
+
 <div class="container my-5">
 
   <footer
@@ -324,56 +364,54 @@
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 120px; height: 2px"
                 />
-            <p>
+            <p class="foot">
               is a trusted online retailer of IT and electronic products based in the Philippines. We are committed to serve our customers the best service and biggest selection of tech products nationwide. Our operation focus on innovation for frequent customer promo deals, user friendly website, multiple easy payment methods, brand certified warranty, dynamic fulfillment branches and more shopping platforms. We are passionate with our vision for convenient online shopping experience and outstanding customer service.
             </p>
           </div>
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold text-black">Products</h6>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 foothov">
+            <h6 class="text-uppercase fw-bold">Products</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 90px; height: 2px"
                 />
             <p>
-              <a href="ddr_computeraccesories.html" class="text-black">Computer Accesories</a>
+              <a href="ddr_computeraccesories.html" class="text-white p1">Computer Accesories</a>
             </p>
             <p>
-              <a href="ddr_processors.html" class="text-black">Processors</a>
+              <a href="ddr_processors.html" class="text-white p1">Processors</a>
             </p>
             <p>
-              <a href="ddr_motherboards.html" class="text-black">Motherboards</a>
+              <a href="ddr_motherboards.html" class="text-white p1">Motherboards</a>
             </p>
             <p>
-              <a href="ddr_memorymodules.html" class="text-black">Memory Modules</a>
+              <a href="ddr_memorymodules.html" class="text-white p1">Memory Modules</a>
             </p>
             <p>
-              <a href="ddr_storagedevices.html" class="text-black">Storage Devices</a>
+              <a href="ddr_storagedevices.html" class="text-white p1">Storage Devices</a>
             </p>
             <p>
-              <a href="ddr_videocards.html" class="text-black">Video Cards</a>
+              <a href="ddr_videocards.html" class="text-white p1">Video Cards</a>
             </p>
             <p>
-              <a href="ddr_monitors.html" class="text-black">Monitors</a>
+              <a href="ddr_monitors.html" class="text-white p1">Monitors</a>
             </p>
             <p>
-              <a href="ddr_chassis.html" class="text-black">Chassis</a>
+              <a href="ddr_chassis.html" class="text-white p1">Chassis</a>
             </p>
             <p>
-              <a href="ddr_cables.html" class="text-black">Cables</a>
+              <a href="ddr_cables.html" class="text-white p1">Cables</a>
             </p>
             <p>
-              <a href="ddr_printers.html" class="text-black">Printers</a>
+              <a href="ddr_printers.html" class="text-white p1">Printers</a>
             </p>
             <p>
-              <a href="ddr_cctv.html" class="text-black">CCTV and Securities</a>
+              <a href="ddr_cctv.html" class="text-white p1">CCTV and Securities</a>
             </p>
           </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
             <h6 class="text-uppercase fw-bold">Payment and Shipping</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 80px; height: 2px"
-                />
+            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 80px; height: 2px"/>
             <p>
               Cash on Delivery
             </p>
@@ -395,36 +433,28 @@
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold">Contact</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 80px; height: 2px"
-                />
+            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 80px; height: 2px"/>
                 <p>
-                  <a href="facebook.com" class="text-black">FACEBOOK</a>
+                  <a href="facebook.com" class="text-white p1">FACEBOOK</a>
                 </p>
                 <p>
-                  <a href="twitter.com" class="text-black">TWITTER</a>
+                  <a href="twitter.com" class="text-white p1">TWITTER</a>
                 </p>
-                <p class="text-black">
+                <p class="text-white">
                     Landline: 077 934-9394
                 </p>
-                <p class="text-black">
+                <p class="text-white">
                    Globe Number: 096373647364
                 </p>
-                <p class="text-black">
+                <p class="text-white">
                   Smart Number: 093846343434
                 </p>
           </div>
         </div>
       </div>
     </section>
-    <div
-         class="text-center p-1"
-         >
-      © 2022 Copyright:
-      <a class="text-black" href="https://ddrtechzone.com/"
-         >ddrtechzone.com</a
-        >
+    <div class="text-center p-1 text-white"> © 2022 Copyright:<a class="text-white" href="https://ddrtechzone.com/">ddrtechzone.com</a>
     </div>
   </footer>
 

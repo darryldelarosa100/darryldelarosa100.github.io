@@ -8,10 +8,51 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+<style>
+  body{
+    background-color: rgb(25, 27, 27);
+  }
+  .nav-link.active{
+    background-color: white;
+            color: black !important;
+  }
+  .nav-item.dropdown{
+    background-color: white;
+            color: white !important;
+            border-color: rgb(43, 223, 19);
+  }
+  .nav-link:hover {
+            background-color: rgb(43, 223, 19);
+            border-color: #D4403A;
+        }
+  .navbar{
+    background-color: black;
+  }
+  .dropdown-item:hover{
+    background-color: rgb(43, 223, 19);
+  }
+  
+  .btn{
+    background-color:rgb(43, 223, 19) ;
+  }
+  h1{
+    color: white;
+  }
+  h6{
+    color: white;
+  }
+  p.foot{
+    color: white;
+  }
+  a.p1:hover{
+    background-color:rgb(43, 223, 19) ;
+  }
+  
+</style>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-light d-flex pt-1 pb-1">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="pics/ddr_logo.png" alt="" width="110" height="60"></a>
+      <a class="navbar-brand" href="index.html"><img src="pics/ddr_logo.png" alt="" width="110" height="60"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -44,6 +85,9 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="ddr_faq.html">FAQ</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="ddr_warranty.html">Warranty</a>
+          </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search for Products" aria-label="Search">
@@ -70,7 +114,7 @@
                 Full channel HD resolution recording DVR
                 HDMI output for HD local playback
                 Live view from PC, MAC, smartphone & tablets.</p>
-              <a href="#" class="btn btn-primary">GBuy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -82,7 +126,7 @@
               <p class="card-text"> <strong>P1,190</strong> <br> High-Definition Video: Records every image in crystal-clear 1080p definition
                 Pan and Tilt: 360º horizontal and 114º vertical range
                 Advanced Night Vision: Provides a visual distance of up to 30 ft.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -94,7 +138,7 @@
               <p class="card-text"> <strong>P5,500</strong> <br> DH-PH-KIT/XVR1B04-I/2-B1A21N-0360B/2-T1A21N-0360B
                 XVR x1，HDCVI Camera x4 18.3m(60ft) BNC&Power Cable *4
                 Desktop power adapter: AC100V~ 240V/ 12V0. 7A wtih 1to 4 power splitter *1.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -107,7 +151,7 @@
                 25/30fps@720P
                 20m(66ft) IR, Smart IR,ICR, OSD, 2.8mm fixed lens, 4in1(CVI/TVI/AHD/CVBS)
                 IP67, Plastic housing”.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
+              <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -126,7 +170,7 @@
               Max. IR distance: 20m(66ft), Smart IR
               CVI/TVI/AHD/CVBS output switchable
               DC12V”.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -141,7 +185,7 @@
               Max. IR distance: 20m(66ft), Smart IR
               CVI/TVI/AHD/CVBS output switchable
               DC12V, IP67″.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -153,7 +197,7 @@
             <p class="card-text"> <strong>P995</strong> <br> Ultra-High Definition Video – Records every image in ultra-high 3MP definition
               Advanced Night Vision – Provides a visual distance of up to 30 ft
               Motion Detection and Notifications – Notifies you when the camera detects movement.</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
@@ -165,137 +209,119 @@
             <p class="card-text"> <strong>P1,525</strong> <br> Ultra-High-Definition Video: Records every image in crystal-clear 3MP definition.
               Wired or Wireless Networking: Connect your camera to the network through Ethernet or WiFi for more flexible installation.
               Advanced Night Vision: Provides a visual distance of up to 98 ft (30m) even in total darkness..</p>
-            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-primary">Buy Now</a> <a href="#" class="btn btn-danger">Add to Cart</a>
           </div>
         </div>
       </div>
     </div>
 </div>
-<div class="container my-5">
+<div class="me-5">
+  <span class="fw-bold"> <h1>Get connected with us:</h1></span>
+</div>
 
-  <footer
-          class="text-center text-lg-start text-black"
-          >
-    <section
-             class="d-flex justify-content-between p-4"
-             >
-      <div class="me-5">
-        <span class="fw-bold"> <h1>Get connected with us:</h1></span>
-      </div>
-      
-    </section>
-    <section class="">
-      <div class="container text-center text-md-start mt-1">
-        <div class="row mt-3">
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold">DDR Techzone</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 120px; height: 2px"
-                />
-            <p>
-              is a trusted online retailer of IT and electronic products based in the Philippines. We are committed to serve our customers the best service and biggest selection of tech products nationwide. Our operation focus on innovation for frequent customer promo deals, user friendly website, multiple easy payment methods, brand certified warranty, dynamic fulfillment branches and more shopping platforms. We are passionate with our vision for convenient online shopping experience and outstanding customer service.
-            </p>
-          </div>
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold text-black">Products</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 90px; height: 2px"
-                />
-            <p>
-              <a href="ddr_computeraccesories.html" class="text-black">Computer Accesories</a>
-            </p>
-            <p>
-              <a href="ddr_processors.html" class="text-black">Processors</a>
-            </p>
-            <p>
-              <a href="ddr_motherboards.html" class="text-black">Motherboards</a>
-            </p>
-            <p>
-              <a href="ddr_memorymodules.html" class="text-black">Memory Modules</a>
-            </p>
-            <p>
-              <a href="ddr_storagedevices.html" class="text-black">Storage Devices</a>
-            </p>
-            <p>
-              <a href="ddr_videocards.html" class="text-black">Video Cards</a>
-            </p>
-            <p>
-              <a href="ddr_monitors.html" class="text-black">Monitors</a>
-            </p>
-            <p>
-              <a href="ddr_chassis.html" class="text-black">Chassis</a>
-            </p>
-            <p>
-              <a href="ddr_cables.html" class="text-black">Cables</a>
-            </p>
-            <p>
-              <a href="ddr_printers.html" class="text-black">Printers</a>
-            </p>
-            <p>
-              <a href="ddr_cctv.html" class="text-black">CCTV and Securities</a>
-            </p>
-          </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold">Payment and Shipping</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 80px; height: 2px"
-                />
-            <p>
-              Cash on Delivery
-            </p>
-            <p>
-              Gcash
-            </p>
-            <p>
-              Paymaya
-            </p>
-            <p>
-              ShopeePay
-            </p>
-            <p>
-              Paypal
-            </p>
-
-            <p><strong>Delivery Options:</strong> LBC Express 
-            | JnT Express | Bus Waybill</p>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold">Contact</h6>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 80px; height: 2px"
-                />
-                <p>
-                  <a href="facebook.com" class="text-black">FACEBOOK</a>
-                </p>
-                <p>
-                  <a href="twitter.com" class="text-black">TWITTER</a>
-                </p>
-                <p class="text-black">
-                    Landline: 077 934-9394
-                </p>
-                <p class="text-black">
-                   Globe Number: 096373647364
-                </p>
-                <p class="text-black">
-                  Smart Number: 093846343434
-                </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div
-         class="text-center p-1"
-         >
-      © 2022 Copyright:
-      <a class="text-black" href="https://ddrtechzone.com/"
-         >ddrtechzone.com</a
-        >
+</section>
+<section class="">
+<div class="container text-center text-md-start mt-1">
+  <div class="row mt-3">
+    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      <h6 class="text-uppercase fw-bold">DDR Techzone</h6>
+      <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 120px; height: 2px"
+          />
+      <p class="foot">
+        is a trusted online retailer of IT and electronic products based in the Philippines. We are committed to serve our customers the best service and biggest selection of tech products nationwide. Our operation focus on innovation for frequent customer promo deals, user friendly website, multiple easy payment methods, brand certified warranty, dynamic fulfillment branches and more shopping platforms. We are passionate with our vision for convenient online shopping experience and outstanding customer service.
+      </p>
     </div>
-  </footer>
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      <h6 class="text-uppercase fw-bold">Products</h6>
+      <hr
+          class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 90px; height: 2px"
+          />
+      <p>
+        <a href="ddr_computeraccesories.html" class="text-white p1">Computer Accesories</a>
+      </p>
+      <p>
+        <a href="ddr_processors.html" class="text-white p1">Processors</a>
+      </p>
+      <p>
+        <a href="ddr_motherboards.html" class="text-white p1">Motherboards</a>
+      </p>
+      <p>
+        <a href="ddr_memorymodules.html" class="text-white p1">Memory Modules</a>
+      </p>
+      <p>
+        <a href="ddr_storagedevices.html" class="text-white p1">Storage Devices</a>
+      </p>
+      <p>
+        <a href="ddr_videocards.html" class="text-white p1">Video Cards</a>
+      </p>
+      <p>
+        <a href="ddr_monitors.html" class="text-white p1">Monitors</a>
+      </p>
+      <p>
+        <a href="ddr_chassis.html" class="text-white p1">Chassis</a>
+      </p>
+      <p>
+        <a href="ddr_cables.html" class="text-white p1">Cables</a>
+      </p>
+      <p>
+        <a href="ddr_printers.html" class="text-white p1">Printers</a>
+      </p>
+      <p>
+        <a href="ddr_cctv.html" class="text-white p1">CCTV and Securities</a>
+      </p>
+    </div>
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+      <h6 class="text-uppercase fw-bold">Payment and Shipping</h6>
+      <hr class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 80px; height: 2px"/>
+      <p>
+        Cash on Delivery
+      </p>
+      <p>
+        Gcash
+      </p>
+      <p>
+        Paymaya
+      </p>
+      <p>
+        ShopeePay
+      </p>
+      <p>
+        Paypal
+      </p>
+
+      <p><strong>Delivery Options:</strong> LBC Express 
+      | JnT Express | Bus Waybill</p>
+    </div>
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      <h6 class="text-uppercase fw-bold">Contact</h6>
+      <hr class="mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 80px; height: 2px"/>
+          <p>
+            <a href="facebook.com" class="text-white p1">FACEBOOK</a>
+          </p>
+          <p>
+            <a href="twitter.com" class="text-white p1">TWITTER</a>
+          </p>
+          <p class="text-white">
+              Landline: 077 934-9394
+          </p>
+          <p class="text-white">
+             Globe Number: 096373647364
+          </p>
+          <p class="text-white">
+            Smart Number: 093846343434
+          </p>
+    </div>
+  </div>
+</div>
+</section>
+<div class="text-center p-1 text-white"> © 2022 Copyright:<a class="text-white" href="https://ddrtechzone.com/">ddrtechzone.com</a>
+</div>
+</footer>
 
 </div>
 </body>
